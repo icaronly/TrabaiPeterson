@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <script src="https://kit.fontawesome.com/05b697db89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a class="link-animado" href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a class="link-animado" href="conteudo.html"><i class="fa-solid fa-book"></i>Conteúdo</a></li>
+            <li><a class="link-animado" href="videoaulas.html"><i class="fa-solid fa-video"></i>Vídeo Aulas</a></li>
+            <li><a class="link-animado" href="hom2.html"><i class="fa-solid fa-question"></i>Quiz</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo">Escolha o modo do Quiz</h1>
+
+    <div class="escolhas">
+        <div class="opcao">
+            <h2>Questões Prontas</h2>
+            <button class="botao" onclick="clicou1()">Começar</button>
+        </div>
+        <script>
+            function clicou1() {
+                window.location.href = "prontas.html";
+            }
+        </script>
+
+        <div class="opcao">
+            <h2>Gerador</h2>
+            <br>
+            <button class="botao" onclick="clicou2()">Começar</button>
+        </div>
+        <script>
+            function clicou2() {
+                window.location.href = "gerador.html";
+            }
+        </script>
+    </div>
+
+</body>
+
+</html>

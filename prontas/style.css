@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(104, 154, 255);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 1%;
+    margin-bottom: -9px;
+    margin-left: -9%;
+}
+
+nav li {
+    display: inline;
+    margin-left: 145px;
+}
+
+i {
+    color: rgb(255, 255, 255);
+    margin-left: -20px;
+    margin-right: 5px;
+}
+
+.link-animado {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s;
+}
+
+.link-animado:hover {
+    transform: scale(1.1);
+}
+
+.conte {
+    border-radius: 20px;
+    max-width: 983px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.correct {
+    color: rgb(0, 86, 4);
+    background-color: rgb(0, 228, 11);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.correct1 {
+    color: rgb(16, 185, 16);
+}
+
+.wrong {
+    color: rgb(255, 48, 48);
+    background-color: rgb(255, 138, 138);
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.wrong1 {
+    color: rgb(255, 25, 25);
+}
+
+h1 {
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    color: rgb(104, 154, 255);
+}
+
+h2 {
+    color: rgb(23, 55, 119);
+    text-align: justify;
+    font-size: 21px;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(104, 154, 255);
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: rgb(58, 103, 194);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}

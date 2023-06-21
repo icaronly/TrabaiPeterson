@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <script src="https://kit.fontawesome.com/05b697db89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="prontas/style.css">
+    <title>Questões Prontas</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a class="link-animado" href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a class="link-animado" href="conteudo.html"><i class="fa-solid fa-book"></i>Conteúdo</a></li>
+            <li><a class="link-animado" href="videoaulas.html"><i class="fa-solid fa-video"></i>Vídeo Aulas</a></li>
+            <li><a class="link-animado" href="hom2.html"><i class="fa-solid fa-question"></i>Quiz</a></li>
+        </ul>
+    </nav>
+
+    <div class="conte">
+        <h1>Resolva as questões</h1>
+        <form id="quizForm">
+            <div id="questionsContainer"></div>
+
+            <button class="botao" type="button" onclick="submitQuiz()">Enviar Respostas</button>
+        </form>
+    </div>
+
+    <script src="prontas/script.js"></script>
+</body>
+
+</html>

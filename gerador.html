@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <script src="https://kit.fontawesome.com/05b697db89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="gerador/style.css">
+    <title>Gerador de Frações</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a class="link-animado" href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a class="link-animado" href="conteudo.html"><i class="fa-solid fa-book"></i>Conteúdo</a></li>
+            <li><a class="link-animado" href="videoaulas.html"><i class="fa-solid fa-video"></i>Vídeo Aulas</a></li>
+            <li><a class="link-animado" href="hom2.html"><i class="fa-solid fa-question"></i>Quiz</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo">Escolha a Operação</h1>
+
+    <div class="escolhas">
+        <div class="opcao">
+            <h2>Adição</h2>
+            <button class="botao"
+                onclick="localStorage.setItem('op', '+'); window.location.href = 'gerador2.html'">Começar</button>
+        </div>
+
+
+        <div class="opcao">
+            <h2>Subtração</h2>
+            <button class="botao"
+                onclick="localStorage.setItem('op', '-'); window.location.href = 'gerador2.html'">Começar</button>
+        </div>
+
+
+        <div class="opcao">
+            <h2>Multiplicação</h2>
+            <button class="botao"
+                onclick="localStorage.setItem('op', '×'); window.location.href = 'gerador2.html'">Começar</button>
+        </div>
+
+
+        <div class="opcao">
+            <h2>Divisão</h2>
+            <button class="botao"
+                onclick="localStorage.setItem('op', '÷'); window.location.href = 'gerador2.html'">Começar</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
